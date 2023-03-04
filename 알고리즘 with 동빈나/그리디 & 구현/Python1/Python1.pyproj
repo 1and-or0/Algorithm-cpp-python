@@ -5,7 +5,7 @@
     <ProjectGuid>784b8d7c-af5e-4961-9c3e-792841e3f654</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>1\4_11047.py</StartupFile>
+    <StartupFile>7\7.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,9 @@
     <Compile Include="5\5.py" />
     <Compile Include="5\5pre.py" />
     <Compile Include="6\6.py" />
+    <Compile Include="7\7.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1\" />
@@ -42,6 +45,7 @@
     <Folder Include="4\" />
     <Folder Include="5\" />
     <Folder Include="6\" />
+    <Folder Include="7\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
