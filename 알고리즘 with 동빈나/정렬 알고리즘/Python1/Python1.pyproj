@@ -1,0 +1,63 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e87ab60d-8b98-4b70-8882-5f396edd0d5c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>BJ_2_1206.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Python1</Name>
+    <RootNamespace>Python1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1sol.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BJ_2_1206.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BJ_2_2750ver2.py" />
+    <Compile Include="BJ_2_2750ver1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="contingSort_time.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ex_countingSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ex_insertionSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ex_quickSort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ex_selectionSort.py" />
+    <Compile Include="sort_time.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
