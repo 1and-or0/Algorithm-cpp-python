@@ -13,7 +13,7 @@ static int binary_search_recursive(int arr[], int target, int start, int end);
 int main() //_ex_binary_search
 {
 	const int len = 13;
-	int arr[13] = { 1, 3, 4, 5, 7, 8, 9, 11, 12, 14, 16, 18, 20 };
+	int arr[len] = { 1, 3, 4, 5, 7, 8, 9, 11, 12, 14, 16, 18, 20 };
 
 	int n;
 	cin >> n;
