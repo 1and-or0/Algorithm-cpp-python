@@ -10,7 +10,7 @@ static int binary_search_iterative(int arr[], int target, int start, int end);
 static int binary_search_recursive(int arr[], int target, int start, int end);
 
 
-int main_ex_binary_search()
+int main() //_ex_binary_search
 {
 	const int len = 13;
 	int arr[13] = { 1, 3, 4, 5, 7, 8, 9, 11, 12, 14, 16, 18, 20 };
@@ -21,15 +21,15 @@ int main_ex_binary_search()
 	int result = 0;
 	result = binary_search_iterative(arr, n, 0, 13 - 1);
 	if (result == -1)
-		cout << n << "ÀÌ ¸®½ºÆ®¿¡ ¾ø½À´Ï´Ù" << endl;
+		cout << n << "ì´ ë¦¬ìŠ¤íŠ¸ì— ì—†ìŠµë‹ˆë‹¤" << endl;
 	else
-		cout << n << "ÀÌ ¸®½ºÆ®¿¡ ÀÖ½À´Ï´Ù" << endl;
+		cout << n << "ì´ ë¦¬ìŠ¤íŠ¸ì— ìˆìŠµë‹ˆë‹¤" << endl;
 
 	result = binary_search_recursive(arr, n, 0, 13 - 1);
 	if (result == -1)
-		cout << n << "ÀÌ ¸®½ºÆ®¿¡ ¾ø½À´Ï´Ù" << endl;
+		cout << n << "ì´ ë¦¬ìŠ¤íŠ¸ì— ì—†ìŠµë‹ˆë‹¤" << endl;
 	else
-		cout << n << "ÀÌ ¸®½ºÆ®¿¡ ÀÖ½À´Ï´Ù" << endl;
+		cout << n << "ì´ ë¦¬ìŠ¤íŠ¸ì— ìˆìŠµë‹ˆë‹¤" << endl;
 
 	return EXIT_SUCCESS;
 }
