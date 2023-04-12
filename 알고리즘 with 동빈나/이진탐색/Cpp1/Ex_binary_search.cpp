@@ -19,13 +19,13 @@ int main() //_ex_binary_search
 	cin >> n;
 
 	int result = 0;
-	result = binary_search_iterative(arr, n, 0, 13 - 1);
+	result = binary_search_iterative(arr, n, 0, len - 1);
 	if (result == -1)
 		cout << n << "이 리스트에 없습니다" << endl;
 	else
 		cout << n << "이 리스트에 있습니다" << endl;
 
-	result = binary_search_recursive(arr, n, 0, 13 - 1);
+	result = binary_search_recursive(arr, n, 0, len - 1);
 	if (result == -1)
 		cout << n << "이 리스트에 없습니다" << endl;
 	else
